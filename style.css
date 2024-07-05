@@ -181,3 +181,34 @@
         transform: scaleY(2);
     }
 }
+
+.music-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Center the buttons */
+}
+
+.control-btn {
+    padding: 5px;
+    margin: 0 10px;  /* Adjust spacing around the buttons */
+    background-color: #444;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.control-btn svg {
+    fill: white;
+    width: 24px;
+    height: 24px;
+}
+
+.control-btn:hover {
+    background-color: #666;
+}
