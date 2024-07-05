@@ -162,9 +162,9 @@
 
 .music-controls {
     display: flex;
-    align-items: center;
-    justify-content: center;  /* Center the buttons */
+    position: absolute;
     bottom: 20px;
+    right: 10px;
 }
 
 .control-btn {
