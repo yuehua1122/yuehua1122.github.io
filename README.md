@@ -1,1 +1,1 @@
-https://yuehua1122.github.io.git/index.html
+https://yuehua1122.github.io/index.html
